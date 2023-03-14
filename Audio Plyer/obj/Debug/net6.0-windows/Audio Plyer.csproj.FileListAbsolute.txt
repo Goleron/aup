@@ -1,0 +1,28 @@
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\Audio Plyer.exe
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\Audio Plyer.deps.json
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\Audio Plyer.runtimeconfig.json
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\Audio Plyer.dll
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\Audio Plyer.pdb
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.csproj.AssemblyReference.cache
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer_MarkupCompile.cache
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer_MarkupCompile.lref
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.g.resources
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.AssemblyInfoInputs.cache
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.AssemblyInfo.cs
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.csproj.CoreCompileInputs.cache
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.dll
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\refint\Audio Plyer.dll
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.pdb
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.genruntimeconfig.cache
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\ref\Audio Plyer.dll
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\Audio Plyer.csproj.CopyComplete
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\obj\Debug\net6.0-windows\App.baml
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\Максим\source\repos\Audio Plyer\Audio Plyer\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
