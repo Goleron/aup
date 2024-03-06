@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "gaCPspfpUQ31d9JhJq9K/DGSCZAn6aWYguoRS7BSzhIGImmus84UZIaHiGHIejMbcLa1sUe3mz0shjMCc5vCzg==",
+  "dgSpecHash": "1UdS2950q0mLcm9DEUi0lWmLUiV93FHJ/5H797t/B70tUw2odLaXdnGbNmkQtXj329Pzh02uvNkQscek+VsuMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Максим\\source\\repos\\Audio Plyer\\Audio Plyer\\Audio Plyer.csproj",
+  "projectFilePath": "C:\\Users\\79152\\source\\repos\\Audio-Player-WPF\\Audio Plyer\\Audio Plyer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Максим\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
-    "C:\\Users\\Максим\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
-    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
-    "C:\\Users\\Максим\\.nuget\\packages\\windowsapicodepack-core\\1.1.1\\windowsapicodepack-core.1.1.1.nupkg.sha512",
-    "C:\\Users\\Максим\\.nuget\\packages\\windowsapicodepack-shell\\1.1.1\\windowsapicodepack-shell.1.1.1.nupkg.sha512"
+    "C:\\Users\\79152\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
+    "C:\\Users\\79152\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
+    "C:\\Users\\79152\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\79152\\.nuget\\packages\\windowsapicodepack-core\\1.1.1\\windowsapicodepack-core.1.1.1.nupkg.sha512",
+    "C:\\Users\\79152\\.nuget\\packages\\windowsapicodepack-shell\\1.1.1\\windowsapicodepack-shell.1.1.1.nupkg.sha512"
   ],
   "logs": [
     {

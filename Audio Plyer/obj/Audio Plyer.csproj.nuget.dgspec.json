@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Максим\\source\\repos\\Audio Plyer\\Audio Plyer\\Audio Plyer.csproj": {}
+    "C:\\Users\\79152\\source\\repos\\Audio-Player-WPF\\Audio Plyer\\Audio Plyer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Максим\\source\\repos\\Audio Plyer\\Audio Plyer\\Audio Plyer.csproj": {
+    "C:\\Users\\79152\\source\\repos\\Audio-Player-WPF\\Audio Plyer\\Audio Plyer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Максим\\source\\repos\\Audio Plyer\\Audio Plyer\\Audio Plyer.csproj",
+        "projectUniqueName": "C:\\Users\\79152\\source\\repos\\Audio-Player-WPF\\Audio Plyer\\Audio Plyer.csproj",
         "projectName": "Audio Plyer",
-        "projectPath": "C:\\Users\\Максим\\source\\repos\\Audio Plyer\\Audio Plyer\\Audio Plyer.csproj",
-        "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Максим\\source\\repos\\Audio Plyer\\Audio Plyer\\obj\\",
+        "projectPath": "C:\\Users\\79152\\source\\repos\\Audio-Player-WPF\\Audio Plyer\\Audio Plyer.csproj",
+        "packagesPath": "C:\\Users\\79152\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\79152\\source\\repos\\Audio-Player-WPF\\Audio Plyer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\79152\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

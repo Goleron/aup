@@ -1,0 +1,9 @@
+﻿<Window x:Class="Audio_Plyer.HistoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="История прослушивания" Height="300" Width="400"
+        SizeToContent="WidthAndHeight" ResizeMode="CanResize">
+    <Grid Margin="10">
+        <ListBox x:Name="HistoryListBox" />
+    </Grid>
+</Window>

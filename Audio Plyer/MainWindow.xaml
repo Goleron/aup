@@ -26,6 +26,7 @@
             <ColumnDefinition Width="0.5*"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
 
         <TextBlock Height="Auto" Grid.ColumnSpan="7" HorizontalAlignment="Center" Text="Список песен" FontSize="20" />
@@ -34,17 +35,15 @@
         </ListBox>
 
         <MediaElement x:Name="media" LoadedBehavior="Manual" MediaOpened="media_MediaOpened" MediaEnded="media_MediaEnded" Grid.ColumnSpan="3" Margin="0,0,126,166" Grid.RowSpan="2" />
-        
-        <!-- <Button Grid.Column="3" Grid.Row="3" VerticalAlignment="Center" Content="Play"/> -->
 
-        <Border Background="#FF282828" Grid.Row ="2" Grid.RowSpan="2" Grid.ColumnSpan="8"/>
-        
+        <Border Background="#FF282828" Grid.Row ="1" Grid.RowSpan="3" Grid.ColumnSpan="9" Margin="0,202,0,0"/>
+
         <Slider x:Name="AudioSl" Grid.Row="2" Grid.Column = "1" Grid.ColumnSpan="6" Height="20" Minimum="0" VerticalAlignment="Center" ValueChanged="AudioSl_ValueChanged" Foreground="#FFFF700B" IsEnabled="False"/>
 
         <Button x:Name="PlayOrPauseBTN" Grid.Column="3" Grid.Row="3" VerticalAlignment="Center" Height="50" Width="50"
           Style="{StaticResource MaterialDesignIconForegroundButton}"
           Background="#FF282828" Click="PlayOrPauseBTN_Click" IsCancel="True" IsDefault="True" IsEnabled="False">
-                    <materialDesign:PackIcon x:Name="IconOfState"
+            <materialDesign:PackIcon x:Name="IconOfState"
             Kind="Play" Background="#00000000" Foreground="White" Height="40" Width="40"/>
         </Button>
 
@@ -90,6 +89,14 @@
             <materialDesign:PackIcon x:Name="VolumeIcon"
             Kind="VolumeHigh" Background="#00000000" Foreground="White" Height="20" Width="20"/>
         </Button>
+
+        <Button x:Name="HistoryBTN" Grid.Row="3" Grid.Column="8" VerticalAlignment="Center" Height="40" Width="40" 
+                Style="{StaticResource MaterialDesignIconForegroundButton}"
+                Background="#FF282828" Click="HistoryBTN_Click">
+            <materialDesign:PackIcon
+                Kind="History" Background="#00000000" Foreground="White" Height="20" Width="20"/>
+        </Button>
+
 
         <Slider x:Name="VolumeSl" Grid.Row="4" Grid.Column="6" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center"  ValueChanged="VolumeSl_ValueChanged" Foreground="#FFFF700B" IsEnabled="False" Minimum="0" Maximum="1" Value="0.3"/>
 

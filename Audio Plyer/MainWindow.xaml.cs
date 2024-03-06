@@ -1,5 +1,6 @@
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
@@ -16,6 +17,8 @@ namespace Audio_Plyer
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<string> history = new List<string>();
+
         CommonOpenFileDialog music = new CommonOpenFileDialog { IsFolderPicker = true };
         private bool flag = true;
         private bool VolumeFlag = true;
@@ -46,8 +49,14 @@ namespace Audio_Plyer
 
             IconOfState.Kind = MaterialDesignThemes.Wpf.PackIconKind.Pause;
 
-/*            AudioSl.Maximum = media.NaturalDuration.TimeSpan.Seconds;
-*/        }
+            var currentTrack = MusicOrderLBX.SelectedItem as string;
+
+            if (!string.IsNullOrWhiteSpace(currentTrack) && !history.Contains(currentTrack))
+             {
+              history.Add(currentTrack);
+             }
+
+        }
         private void Timer_Tick(object sender, EventArgs e)
         {
             AudioSl.Value = media.Position.Ticks;
@@ -107,7 +116,7 @@ namespace Audio_Plyer
             }
         }
 
-        private void VolumeSl_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)  // завершено
+        private void VolumeSl_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)  
         {
             media.Volume = VolumeSl.Value;
             if (media.Volume == 0)
@@ -122,7 +131,7 @@ namespace Audio_Plyer
             }
         }
 
-        private void PlayOrPauseBTN_Click(object sender, RoutedEventArgs e)   // завершено
+        private void PlayOrPauseBTN_Click(object sender, RoutedEventArgs e)   
         {
             if (flag)
             {
@@ -136,7 +145,7 @@ namespace Audio_Plyer
             }
             flag = !flag;
         }
-        private void VolumeBTN_Click(object sender, RoutedEventArgs e) // завершено
+        private void VolumeBTN_Click(object sender, RoutedEventArgs e) 
         {
             if (VolumeFlag)
             {
@@ -233,5 +242,11 @@ namespace Audio_Plyer
             MusicOrderLBX.SelectedIndex -= 1;
             CheckButtons();
         }
+        private void HistoryBTN_Click(object sender, RoutedEventArgs e)
+        {
+            HistoryWindow historyWindow = new HistoryWindow(history);
+            historyWindow.Show();
+        }
+
     }
 }
